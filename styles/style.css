@@ -33,6 +33,19 @@ body {
   padding: 5px;
 }
 
+a {
+  color: #ebdbb2;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ebdbb2;
+}
+
+#particles-js {
+  z-index: -1;
+}
+
 #caption2 {
   font-size: 80%;
   color: #bdae93;
@@ -99,6 +112,27 @@ img {
   .main h2 {
     margin: 5px;
   }
+}
+.aboutMe {
+  color: #a89984;
+  margin: 5px;
+  font-size: 90%;
+}
+
+#surprise {
+  font-family: monospace;
+  padding: 10px;
+  background-color: #1d2021;
+  color: #ebdbb2;
+  border: none;
+  border-radius: 5%;
+  transition: 200ms ease-in;
+}
+
+#surprise:hover {
+  background-color: #ebdbb2;
+  color: #1d2021;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
